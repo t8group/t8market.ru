@@ -33,6 +33,8 @@
 
         {{ "jquery.min.js" | asset_url | script_tag }}
         {{ "bootstrap.min.js" | asset_url | script_tag }}
+        {{ "bootstrapValidator.js" | asset_url | script_tag }}
+        {{ "ru_RU.js" | asset_url | script_tag }}
         {% block scripts %}{% endblock %}
     </body>
 </html>
