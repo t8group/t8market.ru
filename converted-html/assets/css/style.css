@@ -5131,7 +5131,8 @@ body.modal-open,
     padding-right: 0; } }
 html, body {
   font-family: 'Open Sans', sans-serif;
-  height: 100%; }
+  height: 100%;
+  font-weight: 200; }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
@@ -5395,25 +5396,19 @@ footer {
 .feature-divider {
   margin: 3em 0; }
 
-.sticker {
-  margin-top: -100px; }
-
-.sticker:before {
+.sticker--hr {
   content: '';
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   background-image: url("../img/graphic-t8market_sticker.svg");
   -webkit-background-size: contain;
   background-size: contain;
-  position: relative;
-  top: 70px;
-  left: -webkit-calc( 100% - 100px);
-  left: calc( 100% - 100px);
-  z-index: 9999; }
+  background-position: center;
+  border: none; }
 
 .s-intro {
-  background-color: #767b7d;
+  background-color: #2f4e5a;
   background-image: url("../img/bg-t8market-intro.jpg");
   -webkit-background-size: cover;
   background-size: cover;
@@ -5429,16 +5424,13 @@ footer {
   -webkit-background-size: cover;
   background-size: cover; }
 
-.s-contact {
-  margin-top: 2em; }
-
 .section-full, .s-intro, .s-advantages, .s-managers {
-  padding: 15px;
+  padding: 3em 15px !important;
   color: white; }
 
 .section, .s-features, .s-control, .s-contact {
-  padding-top: 1em;
-  padding-bottom: 1em; }
+  padding-top: 3em;
+  padding-bottom: 3em; }
 
 .s-features__row {
   margin-top: 2em; }
@@ -5526,4 +5518,5 @@ footer {
   .t8s-section--ripol {
     margin-top: 2em;
     text-align: center; } }
+
 

@@ -415,21 +415,15 @@ footer {
   margin: 3em 0;
 }
 
-.sticker {
-  margin-top: -100px;
-//  margin-left: 100px;
-}
-.sticker:before {
+.sticker--hr {
   content: '';
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   background-image: url('../img/graphic-t8market_sticker.svg');
   background-size: contain;
-  position: relative;
-  top: 70px;
-  left: calc( 100% - 100px);
-  z-index: 9999;
+  background-position: center;
+  border: none;
 }
 
 
@@ -472,7 +466,6 @@ footer {
 .s-contact{
   @extend .container;
   @extend .section;
-  margin-top: 2em;
 }
 
 .section-full {

@@ -5396,22 +5396,16 @@ footer {
 .feature-divider {
   margin: 3em 0; }
 
-.sticker {
-  margin-top: -100px; }
-
-.sticker:before {
+.sticker--hr {
   content: '';
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   background-image: url("../img/graphic-t8market_sticker.svg");
   -webkit-background-size: contain;
   background-size: contain;
-  position: relative;
-  top: 70px;
-  left: -webkit-calc( 100% - 100px);
-  left: calc( 100% - 100px);
-  z-index: 9999; }
+  background-position: center;
+  border: none; }
 
 .s-intro {
   background-color: #2f4e5a;
@@ -5429,9 +5423,6 @@ footer {
   background-image: url("../img/bg-t8market-intro.jpg");
   -webkit-background-size: cover;
   background-size: cover; }
-
-.s-contact {
-  margin-top: 2em; }
 
 .section-full, .s-intro, .s-advantages, .s-managers {
   padding: 3em 15px !important;
