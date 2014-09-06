@@ -16,6 +16,7 @@
             <!-- Content block, child page inject content -->
             {% block content %}{% endblock %}
         {% include "footer" %}
+        {% include "successModal" %}
         <!-- Script block allowing child pages to inject their own scripts -->
 
         <script>
@@ -35,6 +36,7 @@
         {{ "bootstrap.min.js" | asset_url | script_tag }}
         {{ "bootstrapValidator.js" | asset_url | script_tag }}
         {{ "ru_RU.js" | asset_url | script_tag }}
+        {{ "main.js" | asset_url | script_tag }}
         {% block scripts %}{% endblock %}
     </body>
 </html>
