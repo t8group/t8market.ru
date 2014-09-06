@@ -9,6 +9,7 @@ ___________
 ### Лэндинг в 2х версиях для сплит тестирования
 
 Превью лэндинга A —  [t8group.github.io/t8market.ru](http://t8group.github.io/t8market.ru)
+
 Превью лэндинга B — [t8group.github.io/t8market.ru/indexB.html](http://t8group.github.io/t8market.ru/indexB.html)
 
 _______________________________
