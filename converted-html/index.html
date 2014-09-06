@@ -23,6 +23,13 @@
           <a class="navbar-brand text-hide t8-logo" href="#">T8 Market</a>
         </div>
         <div class="navbar-collapse collapse">
+            <div class="nav navbar-nav">
+                
+                <div class="navbar-text tagline">
+                       <span>Качественный и быстрый <br/> издательский аутсорсинг</span>
+                </div>
+                
+            </div>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="http://app.t8market.ru">Вход</a></li>
             <li><a href="#register">Регистрация</a></li>
@@ -63,7 +70,8 @@
             <div class="col-md-4">
                 <br/>
                 <br/>
-                <form class="t8s-lead-form" data-label="contact" action=""
+                
+                <form class="t8s-lead-form" data-label="request1" action=""
       data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
       data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
       data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
@@ -300,7 +308,8 @@
     <hr class="feature-divider"/>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-              <form class="t8s-lead-form" data-label="contact" action=""
+              
+              <form class="t8s-lead-form" data-label="request1" action=""
       data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
       data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
       data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
@@ -372,6 +381,23 @@
         </div>
     </div>
 </footer>
+        <div class="modal fade" id="successModal" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <h1>Спасибо!
+                    <br/>
+                    Ваш запрос отправлен!</h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
         <!-- Script block allowing child pages to inject their own scripts -->
 
         <script>
@@ -391,6 +417,7 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/bootstrapValidator.min.js"></script>
         <script src="assets/js/language/ru_RU.min.js"></script>
+        <script src="assets/js/main.min.js"></script>
         
 <script>
     $(document).ready(function() {

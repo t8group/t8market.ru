@@ -347,21 +347,33 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.1;
   color: inherit; }
   h1 small, h1 footer, h1 .t8s-book__author,
-  h1 .small, h2 small, h2 footer, h2 .t8s-book__author,
-  h2 .small, h3 small, h3 footer, h3 .t8s-book__author,
-  h3 .small, h4 small, h4 footer, h4 .t8s-book__author,
-  h4 .small, h5 small, h5 footer, h5 .t8s-book__author,
-  h5 .small, h6 small, h6 footer, h6 .t8s-book__author,
+  h1 .small,
+  h1 .tagline, h2 small, h2 footer, h2 .t8s-book__author,
+  h2 .small,
+  h2 .tagline, h3 small, h3 footer, h3 .t8s-book__author,
+  h3 .small,
+  h3 .tagline, h4 small, h4 footer, h4 .t8s-book__author,
+  h4 .small,
+  h4 .tagline, h5 small, h5 footer, h5 .t8s-book__author,
+  h5 .small,
+  h5 .tagline, h6 small, h6 footer, h6 .t8s-book__author,
   h6 .small,
+  h6 .tagline,
   .h1 small,
   .h1 footer,
   .h1 .t8s-book__author,
-  .h1 .small, .h2 small, .h2 footer, .h2 .t8s-book__author,
-  .h2 .small, .h3 small, .h3 footer, .h3 .t8s-book__author,
-  .h3 .small, .h4 small, .h4 footer, .h4 .t8s-book__author,
-  .h4 .small, .h5 small, .h5 footer, .h5 .t8s-book__author,
-  .h5 .small, .h6 small, .h6 footer, .h6 .t8s-book__author,
-  .h6 .small {
+  .h1 .small,
+  .h1 .tagline, .h2 small, .h2 footer, .h2 .t8s-book__author,
+  .h2 .small,
+  .h2 .tagline, .h3 small, .h3 footer, .h3 .t8s-book__author,
+  .h3 .small,
+  .h3 .tagline, .h4 small, .h4 footer, .h4 .t8s-book__author,
+  .h4 .small,
+  .h4 .tagline, .h5 small, .h5 footer, .h5 .t8s-book__author,
+  .h5 .small,
+  .h5 .tagline, .h6 small, .h6 footer, .h6 .t8s-book__author,
+  .h6 .small,
+  .h6 .tagline {
     font-weight: normal;
     line-height: 1;
     color: #999999; }
@@ -372,18 +384,24 @@ h3, .h3 {
   margin-top: 22px;
   margin-bottom: 11px; }
   h1 small, h1 footer, h1 .t8s-book__author,
-  h1 .small, .h1 small, .h1 footer, .h1 .t8s-book__author,
+  h1 .small,
+  h1 .tagline, .h1 small, .h1 footer, .h1 .t8s-book__author,
   .h1 .small,
+  .h1 .tagline,
   h2 small,
   h2 footer,
   h2 .t8s-book__author,
-  h2 .small, .h2 small, .h2 footer, .h2 .t8s-book__author,
+  h2 .small,
+  h2 .tagline, .h2 small, .h2 footer, .h2 .t8s-book__author,
   .h2 .small,
+  .h2 .tagline,
   h3 small,
   h3 footer,
   h3 .t8s-book__author,
-  h3 .small, .h3 small, .h3 footer, .h3 .t8s-book__author,
-  .h3 .small {
+  h3 .small,
+  h3 .tagline, .h3 small, .h3 footer, .h3 .t8s-book__author,
+  .h3 .small,
+  .h3 .tagline {
     font-size: 65%; }
 
 h4, .h4,
@@ -392,18 +410,24 @@ h6, .h6 {
   margin-top: 11px;
   margin-bottom: 11px; }
   h4 small, h4 footer, h4 .t8s-book__author,
-  h4 .small, .h4 small, .h4 footer, .h4 .t8s-book__author,
+  h4 .small,
+  h4 .tagline, .h4 small, .h4 footer, .h4 .t8s-book__author,
   .h4 .small,
+  .h4 .tagline,
   h5 small,
   h5 footer,
   h5 .t8s-book__author,
-  h5 .small, .h5 small, .h5 footer, .h5 .t8s-book__author,
+  h5 .small,
+  h5 .tagline, .h5 small, .h5 footer, .h5 .t8s-book__author,
   .h5 .small,
+  .h5 .tagline,
   h6 small,
   h6 footer,
   h6 .t8s-book__author,
-  h6 .small, .h6 small, .h6 footer, .h6 .t8s-book__author,
-  .h6 .small {
+  h6 .small,
+  h6 .tagline, .h6 small, .h6 footer, .h6 .t8s-book__author,
+  .h6 .small,
+  .h6 .tagline {
     font-size: 75%; }
 
 h1, .h1 {
@@ -437,7 +461,8 @@ p {
       font-size: 24px; } }
 
 small, footer, .t8s-book__author,
-.small {
+.small,
+.tagline {
   font-size: 85%; }
 
 cite {
@@ -599,7 +624,8 @@ blockquote {
   blockquote small,
   blockquote footer,
   blockquote .t8s-book__author,
-  blockquote .small {
+  blockquote .small,
+  blockquote .tagline {
     display: block;
     font-size: 80%;
     line-height: 1.42857;
@@ -608,7 +634,8 @@ blockquote {
     blockquote small:before,
     blockquote footer:before,
     blockquote .t8s-book__author:before,
-    blockquote .small:before {
+    blockquote .small:before,
+    blockquote .tagline:before {
       content: '\2014 \00A0'; }
 
 .blockquote-reverse,
@@ -623,22 +650,26 @@ blockquote.pull-right {
   .blockquote-reverse footer:before,
   .blockquote-reverse .t8s-book__author:before,
   .blockquote-reverse .small:before,
+  .blockquote-reverse .tagline:before,
   blockquote.pull-right footer:before,
   blockquote.pull-right small:before,
   blockquote.pull-right footer:before,
   blockquote.pull-right .t8s-book__author:before,
-  blockquote.pull-right .small:before {
+  blockquote.pull-right .small:before,
+  blockquote.pull-right .tagline:before {
     content: ''; }
   .blockquote-reverse footer:after,
   .blockquote-reverse small:after,
   .blockquote-reverse footer:after,
   .blockquote-reverse .t8s-book__author:after,
   .blockquote-reverse .small:after,
+  .blockquote-reverse .tagline:after,
   blockquote.pull-right footer:after,
   blockquote.pull-right small:after,
   blockquote.pull-right footer:after,
   blockquote.pull-right .t8s-book__author:after,
-  blockquote.pull-right .small:after {
+  blockquote.pull-right .small:after,
+  blockquote.pull-right .tagline:after {
     content: '\00A0 \2014'; }
 
 blockquote:before,
@@ -5416,7 +5447,7 @@ footer {
 .feature-divider {
   margin: 3em 0; }
 
-.sticker--hr {
+.sticker--hr, .sticker--b {
   content: '';
   display: block;
   width: 140px;
@@ -5427,6 +5458,22 @@ footer {
   background-position: center;
   border: none; }
 
+.sticker--b {
+  background-image: url("../img/graphic-t8market_sticker--b.svg"); }
+
+.tagline {
+  line-height: 1.2em;
+  padding-top: 8px; }
+
+.tagline--b {
+  color: #ebebeb;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 1.3em; }
+
+.nobr {
+  white-space: nowrap; }
+
 .s-intro {
   background-color: #2f4e5a;
   background-image: url("../img/bg-t8market-intro.jpg");
@@ -5436,6 +5483,9 @@ footer {
 
 .s-advantages {
   background-color: #FBB500; }
+
+.s-advantages--b {
+  background-color: #3d697b; }
 
 .s-managers {
   background-color: #767b7d;
@@ -5468,6 +5518,33 @@ footer {
 .s-advantages__item__icon {
   width: 80%;
   height: 80%; }
+
+.s-advantages__img {
+  width: 250px;
+  height: 250px; }
+
+.s-advantages__item--b {
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.s-advantages__list, .s-advantages__list--disadvantage, .s-advantages__list--disadvantage--ok {
+  list-style: none; }
+  .s-advantages__list li:before, .s-advantages__list--disadvantage li:before, .s-advantages__list--disadvantage--ok li:before {
+    font-family: 'Glyphicons Halflings';
+    content: '\2b';
+    display: inline-block;
+    margin-left: -23px;
+    padding-right: 6px;
+    color: #20e880; }
+  .s-advantages__list li, .s-advantages__list--disadvantage li, .s-advantages__list--disadvantage--ok li {
+    margin-top: 0.8em; }
+
+.s-advantages__list--disadvantage li:before {
+  content: '\e013';
+  color: #a94442; }
+
+.s-advantages__list--disadvantage--ok li:before {
+  content: '\2212'; }
 
 .s-control__feature {
   margin: 1em auto; }
@@ -5538,4 +5615,5 @@ footer {
   .t8s-section--ripol {
     margin-top: 2em;
     text-align: center; } }
+
 
