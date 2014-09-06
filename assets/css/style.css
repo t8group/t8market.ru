@@ -5447,7 +5447,7 @@ footer {
 .feature-divider {
   margin: 3em 0; }
 
-.sticker--hr {
+.sticker--hr, .sticker--b {
   content: '';
   display: block;
   width: 140px;
@@ -5458,9 +5458,21 @@ footer {
   background-position: center;
   border: none; }
 
+.sticker--b {
+  background-image: url("../img/graphic-t8market_sticker--b.svg"); }
+
 .tagline {
   line-height: 1.2em;
   padding-top: 8px; }
+
+.tagline--b {
+  color: #ebebeb;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 1.3em; }
+
+.nobr {
+  white-space: nowrap; }
 
 .s-intro {
   background-color: #2f4e5a;
@@ -5471,6 +5483,9 @@ footer {
 
 .s-advantages {
   background-color: #FBB500; }
+
+.s-advantages--b {
+  background-color: #3d697b; }
 
 .s-managers {
   background-color: #767b7d;
@@ -5503,6 +5518,33 @@ footer {
 .s-advantages__item__icon {
   width: 80%;
   height: 80%; }
+
+.s-advantages__img {
+  width: 250px;
+  height: 250px; }
+
+.s-advantages__item--b {
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.s-advantages__list, .s-advantages__list--disadvantage, .s-advantages__list--disadvantage--ok {
+  list-style: none; }
+  .s-advantages__list li:before, .s-advantages__list--disadvantage li:before, .s-advantages__list--disadvantage--ok li:before {
+    font-family: 'Glyphicons Halflings';
+    content: '\2b';
+    display: inline-block;
+    margin-left: -23px;
+    padding-right: 6px;
+    color: #20e880; }
+  .s-advantages__list li, .s-advantages__list--disadvantage li, .s-advantages__list--disadvantage--ok li {
+    margin-top: 0.8em; }
+
+.s-advantages__list--disadvantage li:before {
+  content: '\e013';
+  color: #a94442; }
+
+.s-advantages__list--disadvantage--ok li:before {
+  content: '\2212'; }
 
 .s-control__feature {
   margin: 1em auto; }

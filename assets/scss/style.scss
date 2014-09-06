@@ -426,6 +426,10 @@ footer {
   background-position: center;
   border: none;
 }
+.sticker--b{
+  @extend .sticker--hr;
+  background-image: url('../img/graphic-t8market_sticker--b.svg');
+}
 
 .tagline {
   @extend .small;
@@ -433,6 +437,16 @@ footer {
   padding-top: 8px;
 }
 
+.tagline--b {
+  color: rgb(235,235,235);
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 1.3em;
+}
+
+.nobr{
+  white-space: nowrap;
+}
 
 // Sections ---------------------------------------
 
@@ -454,7 +468,12 @@ footer {
 .s-advantages{
   background-color: $t8s-attention-color;
   @extend .section-full;
-
+}
+.s-advantages--b{
+//  background-color: rgb(58, 187, 224);
+//  background-color: rgb(230, 231, 232);
+  background-color: rgb(61, 105, 123);
+//  color: #222222!important;
 }
 .s-control{
   @extend .container;
@@ -521,6 +540,46 @@ footer {
   height: 80%;
 }
 
+.s-advantages__img {
+  width: 250px;
+  height: 250px;
+//  margin: 0 auto;
+}
+
+.s-advantages__item--b {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+
+.s-advantages__list {
+  list-style: none;
+  li:before {
+    font-family: 'Glyphicons Halflings';
+    content: '\2b';
+    display: inline-block;
+    margin-left: -23px;
+    padding-right: 6px;
+    color: rgb(32,232,128);
+  }
+  li {
+    margin-top: 0.8em;
+  }
+}
+
+.s-advantages__list--disadvantage {
+  @extend .s-advantages__list;
+  li:before {
+    content: '\e013';
+    color: $panel-danger-text;
+  }
+}
+.s-advantages__list--disadvantage--ok{
+  @extend .s-advantages__list;
+  li:before {
+    content: '\2212';
+  }
+}
 
 .s-control__feature{
   @extend .col-md-6;
@@ -532,6 +591,11 @@ footer {
   font-size: 21px;
   padding-top: 1em;
 }
+
+
+
+
+
 
 // Five columns
 
