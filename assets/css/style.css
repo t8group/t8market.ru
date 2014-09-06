@@ -347,21 +347,33 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.1;
   color: inherit; }
   h1 small, h1 footer, h1 .t8s-book__author,
-  h1 .small, h2 small, h2 footer, h2 .t8s-book__author,
-  h2 .small, h3 small, h3 footer, h3 .t8s-book__author,
-  h3 .small, h4 small, h4 footer, h4 .t8s-book__author,
-  h4 .small, h5 small, h5 footer, h5 .t8s-book__author,
-  h5 .small, h6 small, h6 footer, h6 .t8s-book__author,
+  h1 .small,
+  h1 .tagline, h2 small, h2 footer, h2 .t8s-book__author,
+  h2 .small,
+  h2 .tagline, h3 small, h3 footer, h3 .t8s-book__author,
+  h3 .small,
+  h3 .tagline, h4 small, h4 footer, h4 .t8s-book__author,
+  h4 .small,
+  h4 .tagline, h5 small, h5 footer, h5 .t8s-book__author,
+  h5 .small,
+  h5 .tagline, h6 small, h6 footer, h6 .t8s-book__author,
   h6 .small,
+  h6 .tagline,
   .h1 small,
   .h1 footer,
   .h1 .t8s-book__author,
-  .h1 .small, .h2 small, .h2 footer, .h2 .t8s-book__author,
-  .h2 .small, .h3 small, .h3 footer, .h3 .t8s-book__author,
-  .h3 .small, .h4 small, .h4 footer, .h4 .t8s-book__author,
-  .h4 .small, .h5 small, .h5 footer, .h5 .t8s-book__author,
-  .h5 .small, .h6 small, .h6 footer, .h6 .t8s-book__author,
-  .h6 .small {
+  .h1 .small,
+  .h1 .tagline, .h2 small, .h2 footer, .h2 .t8s-book__author,
+  .h2 .small,
+  .h2 .tagline, .h3 small, .h3 footer, .h3 .t8s-book__author,
+  .h3 .small,
+  .h3 .tagline, .h4 small, .h4 footer, .h4 .t8s-book__author,
+  .h4 .small,
+  .h4 .tagline, .h5 small, .h5 footer, .h5 .t8s-book__author,
+  .h5 .small,
+  .h5 .tagline, .h6 small, .h6 footer, .h6 .t8s-book__author,
+  .h6 .small,
+  .h6 .tagline {
     font-weight: normal;
     line-height: 1;
     color: #999999; }
@@ -372,18 +384,24 @@ h3, .h3 {
   margin-top: 22px;
   margin-bottom: 11px; }
   h1 small, h1 footer, h1 .t8s-book__author,
-  h1 .small, .h1 small, .h1 footer, .h1 .t8s-book__author,
+  h1 .small,
+  h1 .tagline, .h1 small, .h1 footer, .h1 .t8s-book__author,
   .h1 .small,
+  .h1 .tagline,
   h2 small,
   h2 footer,
   h2 .t8s-book__author,
-  h2 .small, .h2 small, .h2 footer, .h2 .t8s-book__author,
+  h2 .small,
+  h2 .tagline, .h2 small, .h2 footer, .h2 .t8s-book__author,
   .h2 .small,
+  .h2 .tagline,
   h3 small,
   h3 footer,
   h3 .t8s-book__author,
-  h3 .small, .h3 small, .h3 footer, .h3 .t8s-book__author,
-  .h3 .small {
+  h3 .small,
+  h3 .tagline, .h3 small, .h3 footer, .h3 .t8s-book__author,
+  .h3 .small,
+  .h3 .tagline {
     font-size: 65%; }
 
 h4, .h4,
@@ -392,18 +410,24 @@ h6, .h6 {
   margin-top: 11px;
   margin-bottom: 11px; }
   h4 small, h4 footer, h4 .t8s-book__author,
-  h4 .small, .h4 small, .h4 footer, .h4 .t8s-book__author,
+  h4 .small,
+  h4 .tagline, .h4 small, .h4 footer, .h4 .t8s-book__author,
   .h4 .small,
+  .h4 .tagline,
   h5 small,
   h5 footer,
   h5 .t8s-book__author,
-  h5 .small, .h5 small, .h5 footer, .h5 .t8s-book__author,
+  h5 .small,
+  h5 .tagline, .h5 small, .h5 footer, .h5 .t8s-book__author,
   .h5 .small,
+  .h5 .tagline,
   h6 small,
   h6 footer,
   h6 .t8s-book__author,
-  h6 .small, .h6 small, .h6 footer, .h6 .t8s-book__author,
-  .h6 .small {
+  h6 .small,
+  h6 .tagline, .h6 small, .h6 footer, .h6 .t8s-book__author,
+  .h6 .small,
+  .h6 .tagline {
     font-size: 75%; }
 
 h1, .h1 {
@@ -437,7 +461,8 @@ p {
       font-size: 24px; } }
 
 small, footer, .t8s-book__author,
-.small {
+.small,
+.tagline {
   font-size: 85%; }
 
 cite {
@@ -599,7 +624,8 @@ blockquote {
   blockquote small,
   blockquote footer,
   blockquote .t8s-book__author,
-  blockquote .small {
+  blockquote .small,
+  blockquote .tagline {
     display: block;
     font-size: 80%;
     line-height: 1.42857;
@@ -608,7 +634,8 @@ blockquote {
     blockquote small:before,
     blockquote footer:before,
     blockquote .t8s-book__author:before,
-    blockquote .small:before {
+    blockquote .small:before,
+    blockquote .tagline:before {
       content: '\2014 \00A0'; }
 
 .blockquote-reverse,
@@ -623,22 +650,26 @@ blockquote.pull-right {
   .blockquote-reverse footer:before,
   .blockquote-reverse .t8s-book__author:before,
   .blockquote-reverse .small:before,
+  .blockquote-reverse .tagline:before,
   blockquote.pull-right footer:before,
   blockquote.pull-right small:before,
   blockquote.pull-right footer:before,
   blockquote.pull-right .t8s-book__author:before,
-  blockquote.pull-right .small:before {
+  blockquote.pull-right .small:before,
+  blockquote.pull-right .tagline:before {
     content: ''; }
   .blockquote-reverse footer:after,
   .blockquote-reverse small:after,
   .blockquote-reverse footer:after,
   .blockquote-reverse .t8s-book__author:after,
   .blockquote-reverse .small:after,
+  .blockquote-reverse .tagline:after,
   blockquote.pull-right footer:after,
   blockquote.pull-right small:after,
   blockquote.pull-right footer:after,
   blockquote.pull-right .t8s-book__author:after,
-  blockquote.pull-right .small:after {
+  blockquote.pull-right .small:after,
+  blockquote.pull-right .tagline:after {
     content: '\00A0 \2014'; }
 
 blockquote:before,
@@ -5426,6 +5457,10 @@ footer {
   background-size: contain;
   background-position: center;
   border: none; }
+
+.tagline {
+  line-height: 1.2em;
+  padding-top: 8px; }
 
 .s-intro {
   background-color: #2f4e5a;

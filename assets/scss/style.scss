@@ -427,6 +427,12 @@ footer {
   border: none;
 }
 
+.tagline {
+  @extend .small;
+  line-height: 1.2em;
+  padding-top: 8px;
+}
+
 
 // Sections ---------------------------------------
 

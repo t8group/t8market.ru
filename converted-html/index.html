@@ -24,7 +24,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#login">Вход</a></li>
+            <li><a href="http://app.t8market.ru">Вход</a></li>
             <li><a href="#register">Регистрация</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -63,39 +63,58 @@
             <div class="col-md-4">
                 <br/>
                 <br/>
-                <form class="t8s-lead-form" data-label="contact" action="">
-    <input type="hidden" name="projectId" value="t8.market"/>
-    <input type="hidden" name="campaignParams" value=""/>
-    <input type="hidden" name="campaignReferrer" value=""/>
-    <input type="hidden" name="formType" value="serviceRequest"/>
+                <form class="t8s-lead-form" data-label="contact" action=""
+      data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
+      data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
+      data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+    <!--<input type="hidden" name="projectId" value="t8.market"/>-->
+    <!--<input type="hidden" name="campaignParams" value=""/>-->
+    <!--<input type="hidden" name="campaignReferrer" value=""/>-->
+    <!--<input type="hidden" name="formType" value="serviceRequest"/>-->
 
     <h4 class="t8s-lead-form__title">Запрос на регистрацию</h4>
-    <div class="form-group" data-toggle="buttons">
-        <input name="fullName" type="text" class="form-control" placeholder="Ф. И. О." required/>
+    <div class="form-group">
+        <input name="fullName" type="text" class="form-control" placeholder="Фамилия Имя Отчество" required
+               data-bv-notempty="true"
+               data-bv-notempty-message="Пожалуйста введите Ф. И. О."
+
+               data-bv-stringlength="true"
+               data-bv-stringlength-min="6"
+               data-bv-stringlength-max="50"
+               data-bv-stringlength-message="Ф. И. О. не должно быть меньше 6 и не более 50 знаков"
+                />
     </div>
     <div class="form-group">
-        <input name="email" type="email" class="form-control" placeholder="Email" required/>
+        <input name="email" type="email" class="form-control" placeholder="Адрес email" required
+               data-bv-notempty="true"
+               data-bv-notempty-message="Пожалуйста введите email"
+                />
     </div>
     <div class="form-group">
-        <input name="phone" type="tel" class="form-control" placeholder="Телефон" required/>
+        <input name="phone" type="tel" class="form-control" placeholder="Телефон для связи" required
+               data-bv-notempty="true"
+               data-bv-notempty-message="Пожалуйста введите номер телефона для связи"
+                />
     </div>
     <div class="form-group text-center">
         <div class="btn-group" data-toggle="buttons">
             <label class="btn btn-default active">
-                <input type="radio" checked name="accountType" value="Publisher"/>
+                <input type="radio" name="account" checked  value="Publisher"/>
                 Издатель
             </label>
             <label class="btn btn-default">
-                <input type="radio" name="accountType" value="Outsourcer"/>
+                <input type="radio" name="account"  value="Outsourcer"/>
                 Аутсорсер
             </label>
         </div>
+
 
     </div>
     <div class="form-group">
         <button data-loading-text="Отправляем..." class="t8s-lead-form__button" type="submit">Отправить</button>
     </div>
 </form>
+
             </div>
         </div>
     </div>
@@ -253,7 +272,7 @@
 
     </div>
 </section>
-<section class="s-contact">
+<section class="s-contact" id="register">
     <!--section contact-->
     <h2>Отправить запрос на регистрацию</h2>
     <div class="row">
@@ -281,39 +300,58 @@
     <hr class="feature-divider"/>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-              <form class="t8s-lead-form" data-label="contact" action="">
-    <input type="hidden" name="projectId" value="t8.market"/>
-    <input type="hidden" name="campaignParams" value=""/>
-    <input type="hidden" name="campaignReferrer" value=""/>
-    <input type="hidden" name="formType" value="serviceRequest"/>
+              <form class="t8s-lead-form" data-label="contact" action=""
+      data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
+      data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
+      data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+    <!--<input type="hidden" name="projectId" value="t8.market"/>-->
+    <!--<input type="hidden" name="campaignParams" value=""/>-->
+    <!--<input type="hidden" name="campaignReferrer" value=""/>-->
+    <!--<input type="hidden" name="formType" value="serviceRequest"/>-->
 
     <h4 class="t8s-lead-form__title">Запрос на регистрацию</h4>
-    <div class="form-group" data-toggle="buttons">
-        <input name="fullName" type="text" class="form-control" placeholder="Ф. И. О." required/>
+    <div class="form-group">
+        <input name="fullName" type="text" class="form-control" placeholder="Фамилия Имя Отчество" required
+               data-bv-notempty="true"
+               data-bv-notempty-message="Пожалуйста введите Ф. И. О."
+
+               data-bv-stringlength="true"
+               data-bv-stringlength-min="6"
+               data-bv-stringlength-max="50"
+               data-bv-stringlength-message="Ф. И. О. не должно быть меньше 6 и не более 50 знаков"
+                />
     </div>
     <div class="form-group">
-        <input name="email" type="email" class="form-control" placeholder="Email" required/>
+        <input name="email" type="email" class="form-control" placeholder="Адрес email" required
+               data-bv-notempty="true"
+               data-bv-notempty-message="Пожалуйста введите email"
+                />
     </div>
     <div class="form-group">
-        <input name="phone" type="tel" class="form-control" placeholder="Телефон" required/>
+        <input name="phone" type="tel" class="form-control" placeholder="Телефон для связи" required
+               data-bv-notempty="true"
+               data-bv-notempty-message="Пожалуйста введите номер телефона для связи"
+                />
     </div>
     <div class="form-group text-center">
         <div class="btn-group" data-toggle="buttons">
             <label class="btn btn-default active">
-                <input type="radio" checked name="accountType" value="Publisher"/>
+                <input type="radio" name="account" checked  value="Publisher"/>
                 Издатель
             </label>
             <label class="btn btn-default">
-                <input type="radio" name="accountType" value="Outsourcer"/>
+                <input type="radio" name="account"  value="Outsourcer"/>
                 Аутсорсер
             </label>
         </div>
+
 
     </div>
     <div class="form-group">
         <button data-loading-text="Отправляем..." class="t8s-lead-form__button" type="submit">Отправить</button>
     </div>
 </form>
+
         </div>
     </div>
 </section>
@@ -351,6 +389,28 @@
 
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrapValidator.min.js"></script>
+        <script src="assets/js/language/ru_RU.min.js"></script>
         
+<script>
+    $(document).ready(function() {
+        $('.t8s-lead-form').bootstrapValidator({
+            fields: {
+                account: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Пожалуйста выберите тип аккаунта'
+                        }
+                    }
+                }
+            }
+
+
+        });
+    });
+</script>
+
+
+
     </body>
 </html>
