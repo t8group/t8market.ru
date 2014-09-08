@@ -5476,9 +5476,10 @@ footer {
 
 .s-intro {
   background-color: #2f4e5a;
-  background-image: url("../img/bg-t8market-intro.jpg");
+  background-image: url("../img/bg-t8market-intro2.jpg");
   -webkit-background-size: cover;
   background-size: cover;
+  background-position: center;
   padding-bottom: 2em !important; }
 
 .s-advantages {
@@ -5490,7 +5491,7 @@ footer {
 .s-managers {
   background-color: #767b7d;
   padding-bottom: 3em !important;
-  background-image: url("../img/bg-t8market-intro.jpg");
+  background-image: url("../img/bg-t8market-intro2.jpg");
   -webkit-background-size: cover;
   background-size: cover; }
 
